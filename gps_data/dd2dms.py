@@ -4,6 +4,15 @@ import numpy as np
 
 
 def dd2dms(deg):
+    """
+    Convert GPS Decimal Degrees (DD) format to Degrees, Minutes, Seconds (DMS)
+    format.
+
+    Source:
+
+      https://en.wikipedia.org/wiki/Geographic_coordinate_conversion
+
+    """
     d = int(deg)
     md = abs(deg - d) * 60.0
     m = int(md)
