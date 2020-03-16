@@ -1,0 +1,2 @@
+make
+./cpp_map
